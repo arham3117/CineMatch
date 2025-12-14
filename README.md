@@ -118,21 +118,10 @@ Tests cover: CRUD operations, triggers, constraints, all recommendation algorith
 
 ## Documentation
 
-**Project Files:**
-- `README.md` - This file
-- `GETTING_STARTED.md` - Quick start guide
-- `WORKFLOW_EXPLAINED.md` - System workflow explained
-- `PROJECT_SUMMARY.md` - Detailed achievements
-
-**Technical Docs:**
-- `docs/ER_DIAGRAM.md` - Database design
-- `docs/API_REFERENCE.md` - All 35 procedures
-- `docs/USAGE_GUIDE.md` - Detailed tutorials
-- `docs/QUICK_REFERENCE.md` - Command reference
-
-**Presentation:**
-- `CineMatch_Presentation.pptx` - 12 slides
-- `CineMatch_IEEE_Paper.tex` - IEEE paper
+- `README.md` - Project overview and quick reference
+- `CineMatch_Presentation.pptx` - Project presentation
+- `docs/CS-51550 Project Proposal.pdf` - Original project proposal
+- SQL files in `database/` contain inline comments explaining implementation
 
 ---
 
@@ -163,12 +152,16 @@ CineMatch/
 ├── tests/test_all_features.sql
 ├── docs/
 │   ├── images/
-│   ├── ER_DIAGRAM.md
-│   ├── API_REFERENCE.md
-│   └── USAGE_GUIDE.md
+│   │   ├── algorithm_comparison.png
+│   │   ├── database_components.png
+│   │   ├── recommendation_accuracy.png
+│   │   ├── sample_data_stats.png
+│   │   └── testing_results.png
+│   └── CS-51550 Project Proposal.pdf
 ├── generate_visuals.py
 ├── CineMatch_Presentation.pptx
-└── CineMatch_IEEE_Paper.tex
+├── README.md
+└── .gitignore
 ```
 
 ---
@@ -180,7 +173,7 @@ CineMatch/
 - 85% hybrid recommendation accuracy
 - 98% user coverage
 - Fast query performance with strategic indexing
-- Complete documentation (11 files)
+- Well-documented codebase with inline SQL comments
 
 ---
 
